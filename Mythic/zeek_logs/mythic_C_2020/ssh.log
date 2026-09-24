@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2026-09-23-18-32-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key_fingerprint
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string
+1782734229.778648	C60X07ZNs14wjLhE1	172.40.0.69	36966	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782734229.777822	CeRiZQfjtolCAV8Ba	172.40.0.69	36970	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+#close	2026-09-23-18-32-11

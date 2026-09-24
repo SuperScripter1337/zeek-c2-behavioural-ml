@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2026-09-23-18-32-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	opcode	opcode_name
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	count	string
+1782717789.575969	C2oenT2R9E5SEgVJTj	fe80::42:3cff:fe6e:9074	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1782719421.825537	ClVwMTGnjp9K77ANg	172.40.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1782721389.581966	CBXNub1JjYuZ2xtaM1	fe80::42:3cff:fe6e:9074	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1782723021.831975	Csy3Ic2C9K2gISdYmk	172.40.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+#close	2026-09-23-18-32-04

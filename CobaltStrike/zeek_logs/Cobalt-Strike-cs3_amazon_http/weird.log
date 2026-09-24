@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-09-23-18-30-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1649346738.151148	C6upQC2bWtrmLkJX5f	192.168.56.5	59006	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649346743.160137	C4ipUo4i6NX0EYscB	192.168.56.5	59008	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649346774.744740	Ce2aIk1NYfsTuAdvw4	192.168.56.5	59010	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649346798.815872	CPM7ix211fiKVQ5TNe	192.168.56.5	59012	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649346871.383428	CnZgO70GFuACCO4Jj	192.168.56.5	59027	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649346876.087498	Cw9iNWZ872IB4YT8k	192.168.56.5	59029	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649346941.503345	CiBusZ2lT4GnZFpIUl	192.168.56.5	59031	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649346949.339212	CNMHtl2REDW2dIpozc	192.168.56.5	59033	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649347014.539505	CZnkFb10hD7R7wNwbg	192.168.56.5	59035	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649347019.514550	CY5IdA1ZPRs4uZWflk	192.168.56.5	59037	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1649347070.724661	CkUKfh41bSpgf5bxS1	192.168.56.5	59048	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+#close	2026-09-23-18-30-05

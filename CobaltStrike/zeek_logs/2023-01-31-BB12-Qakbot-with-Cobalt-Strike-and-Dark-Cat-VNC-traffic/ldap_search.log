@@ -1,0 +1,37 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2026-09-23-18-29-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1675184918.185834	CK0qsq3O81bfYYZVRl	172.30.1.4	50680	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675184918.197136	CK0qsq3O81bfYYZVRl	172.30.1.4	50680	172.30.1.3	389	4	tree	never	DC=bigpappa,DC=online	1	success	-	(|(distinguishedName=DC=bigpappa,DC=online))	-
+1675184918.199963	CamY3z0Zmjk0OyJ59	172.30.1.4	50681	172.30.1.3	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1675184918.200182	CamY3z0Zmjk0OyJ59	172.30.1.4	50681	172.30.1.3	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=bigpappa,DC=online	1	success	-	(objectClass=*)	-
+1675184918.200770	CK0qsq3O81bfYYZVRl	172.30.1.4	50680	172.30.1.3	389	10	tree	never	cn=policies,cn=system,DC=bigpappa,DC=online	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=bigpappa,DC=online)))	-
+1675185002.957823	CKTOaF4egOSEU9Dy78	172.30.1.4	50690	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675186729.278282	C51LbC3pctViceWOra	172.30.1.4	50790	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675186729.397083	C51LbC3pctViceWOra	172.30.1.4	50790	172.30.1.3	389	4	tree	never	DC=bigpappa,DC=online	1	success	-	(|(distinguishedName=DC=bigpappa,DC=online))	-
+1675186729.504046	CNu1FgJas9eaM5mfb	172.30.1.4	50791	172.30.1.3	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1675186729.504308	CNu1FgJas9eaM5mfb	172.30.1.4	50791	172.30.1.3	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=bigpappa,DC=online	1	success	-	(objectClass=*)	-
+1675186729.505057	C51LbC3pctViceWOra	172.30.1.4	50790	172.30.1.3	389	10	tree	never	cn=policies,cn=system,DC=bigpappa,DC=online	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=bigpappa,DC=online)))	-
+1675188472.398861	ColZ101NGsnufGIWZ5	172.30.1.4	50979	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675188603.073897	CEOICIONVeJL4dF49	172.30.1.4	50987	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675189244.879822	CYtxgo4iY5HIJJIKm1	172.30.1.4	51012	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675190739.315531	Coq0ke3mrNwpjf0c62	172.30.1.4	51084	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675190739.326491	Coq0ke3mrNwpjf0c62	172.30.1.4	51084	172.30.1.3	389	4	tree	never	DC=bigpappa,DC=online	1	success	-	(|(distinguishedName=DC=bigpappa,DC=online))	-
+1675190739.329270	CLrpea3F8UsfMjizl1	172.30.1.4	51085	172.30.1.3	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1675190739.329521	CLrpea3F8UsfMjizl1	172.30.1.4	51085	172.30.1.3	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=bigpappa,DC=online	1	success	-	(objectClass=*)	-
+1675190739.330123	Coq0ke3mrNwpjf0c62	172.30.1.4	51084	172.30.1.3	389	10	tree	never	cn=policies,cn=system,DC=bigpappa,DC=online	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=bigpappa,DC=online)))	-
+1675192202.987720	CcMNQx2poQfU5F8Gy6	172.30.1.4	51128	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675192203.088648	CflPx93O0jftn0Idki	172.30.1.4	51134	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675192554.243742	CHtw5k452pPDS4HwW2	172.30.1.4	51150	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675192789.743019	Cdd4dc45g7Ped3qbi	172.30.1.4	51161	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1675192789.750237	Cdd4dc45g7Ped3qbi	172.30.1.4	51161	172.30.1.3	389	4	tree	never	DC=bigpappa,DC=online	1	success	-	(|(distinguishedName=DC=bigpappa,DC=online))	-
+1675192789.752788	CLPXe82jsw0uiVP4d9	172.30.1.4	51162	172.30.1.3	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1675192789.753014	CLPXe82jsw0uiVP4d9	172.30.1.4	51162	172.30.1.3	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=bigpappa,DC=online	1	success	-	(objectClass=*)	-
+1675192789.753581	Cdd4dc45g7Ped3qbi	172.30.1.4	51161	172.30.1.3	389	10	tree	never	cn=policies,cn=system,DC=bigpappa,DC=online	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=bigpappa,DC=online)))	-
+1675192794.146764	CRcjmZ39vm0oEBMUdj	172.30.1.4	51165	172.30.1.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+#close	2026-09-23-18-29-22

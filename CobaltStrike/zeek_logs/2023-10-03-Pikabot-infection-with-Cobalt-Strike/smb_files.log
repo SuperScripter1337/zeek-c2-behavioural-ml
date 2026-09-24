@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2026-09-23-18-29-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1696349841.611061	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	-	SMB::FILE_OPEN	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\sysvol	lasttoarrive.org\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	22	-	1696266367.104303	1696266367.104303	1696266025.890415	1696266367.104303
+1696349841.618052	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	-	SMB::FILE_OPEN	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\sysvol	lasttoarrive.org\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine	0	-	1696266367.104303	1696266367.104303	1696266025.890415	1696266367.104303
+1696349841.621453	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	-	SMB::FILE_OPEN	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\sysvol	lasttoarrive.org\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft	0	-	1696266025.891418	1696266025.891418	1696266025.891418	1696266034.160706
+1696349841.624820	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	-	SMB::FILE_OPEN	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\sysvol	lasttoarrive.org\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft\\Windows NT	0	-	1696266025.891418	1696266025.891418	1696266025.891418	1696266034.160706
+1696349841.628249	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	-	SMB::FILE_OPEN	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\sysvol	lasttoarrive.org\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft\\Windows NT\\SecEdit	0	-	1696266025.895418	1696266025.895418	1696266025.891418	1696266034.161705
+1696349841.630841	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	-	SMB::FILE_OPEN	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\sysvol	lasttoarrive.org\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft\\Windows NT\\SecEdit\\GptTmpl.inf	1098	-	1696266025.895418	1696266025.895418	1696266025.895418	1696266034.161705
+1696349841.637954	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	-	SMB::FILE_OPEN	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\sysvol	lasttoarrive.org\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Registry.pol	2800	-	1696266367.104303	1696266367.104303	1696266367.104303	1696266367.104303
+#close	2026-09-23-18-29-30

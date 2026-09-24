@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-09-23-18-30-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1653725983.453668	CBo2wbu0vbCamCXcd	192.168.56.5	52759	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1653726056.393705	Cm1L87260LfOtoHAW6	192.168.56.5	52764	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1653726129.935092	Cbo3nO141mcH69aTn7	192.168.56.5	52767	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+1653726204.129717	CP1qN02t6MHCzDob6e	192.168.56.5	52769	192.168.56.4	80	inflate_failed	-	F	zeek	ZIP
+#close	2026-09-23-18-30-45

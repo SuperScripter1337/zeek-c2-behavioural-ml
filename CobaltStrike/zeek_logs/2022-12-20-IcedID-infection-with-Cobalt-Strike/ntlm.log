@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2026-09-23-18-29-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1671549447.290383	Ca9EoD1rSkvlVHcOha	10.3.24.178	54606	10.3.24.4	139	-	DESKTOP-UCR3L7M	-	WIN-JIN5VG4G8PQ	WIN-JIN5VG4G8PQ.heyheyhey.org	heyheyhey.org	T
+#close	2026-09-23-18-29-17

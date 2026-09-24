@@ -1,0 +1,57 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2026-09-23-18-39-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	opcode	opcode_name
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	count	string
+1783116383.342976	CFnkHpw5hOdCngOt1	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783117405.253826	CfCWDC4GR2PVFGx1je	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783119983.345925	CJn28s4jh2YpzAhYfi	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783121005.265898	CznUEf2IkKiwzp44nl	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783123583.362103	C7CNpJ2WgxNpWPDAwl	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783124605.280301	C6rrLnZlxWN9i2rAc	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783127183.368796	CIEyQN8j3xsJBw3x9	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783128205.295317	CkTmFM24sBYtTdlQca	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783130783.371920	CTk1sW4dI84OKxU41	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783131805.306001	CHTGzE4PMviNx0QiCj	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783134383.377467	C9aYOS1DBpD4BdB5f8	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783135405.317913	Ce8pFOBn70bBRsbRd	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783137983.379253	CARFGw23K3e8pEL2k	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783139005.332773	ChwiOwG7GPqKst5be	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783141583.381073	Cqk44f3IcxMDPkb4d8	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783142605.347798	CDX8Kr1psX3N0RfAwc	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783145183.384824	CdAj7w2q4nc8tihHgf	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783146205.357332	Cknwos4KOHnTLg6aze	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783148783.385713	CQmLel3jEqEgorLTA6	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783149805.363312	CHe7ko3Uh4mDmwCZTe	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783152383.387162	CxhFid3ftdDb5Diuyh	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783153405.364122	C2j86Kw9ODErWbWil	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783155983.388692	CBQLoF4FiualF6tbYj	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783157005.379378	C2UMtngPFOrmNdeQ8	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783159583.396009	Cw0LPSkSRGDtxdV47	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783160605.394676	C18TE63PBR5Sh2eC61	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783163183.402253	CUunOuw641C2qBxU6	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783164205.409680	Cwbhzl7uW5lPIBqmi	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783166783.437800	CDUFuDBQ2D8faUWhd	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783167805.410807	CZUQ1tg5gBE0pf3g7	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783170383.442535	CtzLZ61bnE4M8OeJg	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783171405.413517	CX79mY1MpzP3Hg9ZOg	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783173983.453902	CNtvE62CZ45hxH8zJ9	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783175005.413922	ClPP101nZ8d2zeQCL6	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783177583.471019	C8sEAn4b5IkBHOHSI8	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783178605.417370	CLVTu61sEUaMQyQ4W2	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783181183.474010	CcRcCV2YGbYCsq0BBh	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783182205.431558	CFwpfl1edda4uCll7j	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783184783.490067	C8vM0H2mw3GvoMEOOf	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783185805.432389	CfTJy5KS2ecGk438i	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783188383.545938	CvTKIlf11fWfqTuXg	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783189405.433941	C8vSLp15U8DIIelIrj	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783191983.569953	CtV9Ob3BTwsXl3WZ95	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783193005.434586	CbF2kbEB80QjliMHa	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783195583.602330	CNDEy1FsynF9IxfW5	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783196605.447274	CfJSLP3oLm4lVX7A02	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783199183.634056	CoY4p62q0P7cA2gqa2	172.20.0.1	5353	224.0.0.251	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+1783200205.462140	CeDiC2333eA8P20SR3	fe80::42:d8ff:fe09:1fef	5353	ff02::fb	5353	udp	0	-	_ipp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	0	query
+#close	2026-09-23-18-41-22

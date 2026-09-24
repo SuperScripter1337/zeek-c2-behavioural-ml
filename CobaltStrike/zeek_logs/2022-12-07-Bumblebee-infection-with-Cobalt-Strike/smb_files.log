@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_files
+#open	2026-09-23-18-29-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	action	path	name	size	prev_name	times.modified	times.accessed	times.created	times.changed
+#types	time	string	addr	port	addr	port	string	enum	string	string	count	string	time	time	time	time
+1670432357.859929	CI7zUKEnLOEa3dung	10.12.7.101	50160	10.12.7.12	445	-	SMB::FILE_OPEN	\\\\KETTLE-TECH-DC1.kettletech.com\\Shared	<share_root>	0	-	1661043826.890015	1661043826.890015	1661043826.890015	1669046911.082359
+#close	2026-09-23-18-29-16

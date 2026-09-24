@@ -1,0 +1,59 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2026-09-23-18-29-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1669646957.108266	CaynAq3OUPjwKNyOZg	10.11.28.101	49814	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669646957.119805	CkPx0Q30jIfho1GGTe	10.11.28.101	49815	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669646957.125564	Cwa1Yu4yNiIV3vffdi	10.11.28.101	49816	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647097.285105	Cedd72A9fGVy8ZEti	10.11.28.101	49826	10.11.28.2	445	AP	/MYTALLBEER.COM	cifs/WIN-FGG5B8C1BYF.mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647151.145904	CxGg1M3gjJclT1fbV8	10.11.28.101	49844	10.11.28.2	88	TGS	beer.consumer1/MYTALLBEER.COM	ldap/WIN-FGG5B8C1BYF.mytallbeer.com	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1669647151.147241	CjZDED2XEEm3SpmGY	10.11.28.101	49843	10.11.28.2	389	AP	/MYTALLBEER.COM	ldap/WIN-FGG5B8C1BYF.mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647243.689618	CUzvF13Hvl3GBFoLfl	10.11.28.101	49868	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647243.698719	CnL4xp1d4z8qQPVtZ3	10.11.28.101	49869	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647243.702906	CZeGeJ3isRZRUGodge	10.11.28.101	49870	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647259.741878	CaQHOO12Vx3VAnmnI9	10.11.28.101	49872	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647259.748841	ClffMF4RjpLz8qbKA9	10.11.28.101	49874	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647259.871151	Ct2DN1YN8gfYeRpZ3	10.11.28.101	49875	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647259.876913	CP9ihZ3GJGIBxkRpCc	10.11.28.101	49876	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647791.090007	CKoLtD165zQgBKgnv6	10.11.28.101	49897	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647791.099467	CT8TwT1pliNZZo1ikg	10.11.28.101	49898	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647791.104590	CqNepbKalYPzbbzY9	10.11.28.101	49899	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669647997.317563	C1wdmE3y3a7xPJnmXh	10.11.28.101	49904	10.11.28.2	445	AP	/MYTALLBEER.COM	cifs/WIN-FGG5B8C1BYF.mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669648897.385001	CyZhZl1bNXwH7HAHY9	10.11.28.101	49922	10.11.28.2	445	AP	/MYTALLBEER.COM	cifs/WIN-FGG5B8C1BYF.mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669649797.413289	CCLILS1IJesoLBMgK6	10.11.28.101	49940	10.11.28.2	445	AP	/MYTALLBEER.COM	cifs/WIN-FGG5B8C1BYF.mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669650697.390943	CtQUZmg8P9SP4YSN2	10.11.28.101	49956	10.11.28.2	445	AP	/MYTALLBEER.COM	cifs/WIN-FGG5B8C1BYF.mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669650844.235174	CL8s56nQBxcXgTyA1	10.11.28.101	49961	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669650844.349462	CMIA0R32eEt0JW0Je3	10.11.28.101	49962	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669650844.354012	CSeerB4y8F5LBWyy	10.11.28.101	49963	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669650844.444351	ClrS4BdXhUfrvlv1k	10.11.28.101	49966	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669650844.451578	Co7Yio4uWmNvxnYFz	10.11.28.101	49968	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669650844.462023	Cfpvli1zhpAdFBJkG2	10.11.28.101	49969	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669650844.467761	C5Ye0p3c7POGJimKIk	10.11.28.101	49970	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651245.006845	CjSeB530LTprEld0Xi	10.11.28.101	49980	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651245.327771	CeHVDl1UjDyXC3X7W8	10.11.28.101	49981	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651245.450106	Cx73CN2B2ghtwRDr3a	10.11.28.101	49982	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651245.764352	CatgZ2jumBIYActc	10.11.28.101	49983	10.11.28.2	445	AP	/MYTALLBEER.COM	cifs/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651315.500686	CjoFTc4KtYnTKf9dxf	10.11.28.101	49987	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651315.510049	CFMjoUq0rxL34LSd6	10.11.28.101	49988	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651315.515241	CoxCKU19Lw0VblDdsk	10.11.28.101	49989	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651339.954319	CwBCtnk1PJTVpG67	10.11.28.101	49993	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651340.272464	ClaKpZ2xOtQg1J8Dcd	10.11.28.101	49995	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651340.281904	C9jGWb31xi7LYmmnTf	10.11.28.101	49996	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651597.387082	CSk5WG2wBinDsM4zy	10.11.28.101	50006	10.11.28.2	445	AP	/MYTALLBEER.COM	cifs/WIN-FGG5B8C1BYF.mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651768.447459	ClEIQk3fWULegTKZRi	10.11.28.101	50015	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651768.469381	CRNFGX3XL6IYdvxa18	10.11.28.101	50016	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651768.475519	C1LXZ44SSjZT4Y7UBj	10.11.28.101	50017	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651900.175783	CnLvBm1xIBeTfpuVRi	10.11.28.101	50099	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651900.187346	CcqYSq2hW13HZ7aa72	10.11.28.101	50100	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669651900.194610	CjDRTa45TLEjBuEvlj	10.11.28.101	50101	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669652203.626445	CYG75C2XPDDkXAL7p4	10.11.28.101	50115	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669652203.637638	CtriyY3tDF4ksYsnJ	10.11.28.101	50116	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669652203.645323	Czj2FU2foFdwvY5JUd	10.11.28.101	50117	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669652496.629607	CHnyEV19JQuLUEdaGd	10.11.28.101	50132	10.11.28.2	49667	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669652496.643471	C4u1Pr1O0sp8ohPZB2	10.11.28.101	50133	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1669652496.648929	Czx6md2vwxuhnivYek	10.11.28.101	50134	10.11.28.2	389	AP	/MYTALLBEER.COM	LDAP/WIN-FGG5B8C1BYF.mytallbeer.com/mytallbeer.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+#close	2026-09-23-18-29-14

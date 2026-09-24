@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_mapping
+#open	2026-09-23-18-29-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	path	service	native_file_system	share_type
+#types	time	string	addr	port	addr	port	string	string	string	string
+1696345136.560427	Ci29vO3u1wtcSZqyFe	10.1.2.147	49332	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696346036.552427	CZLpsG2kkLPWRWGm2g	10.1.2.147	49340	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696346936.529150	CvjNcO1oIIFQOOoFC	10.1.2.147	49355	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696347836.525345	CZ0Jar4Zb8pFcUOJ4e	10.1.2.147	49362	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696348736.506758	CgPSOU1r1VNOAXMwOh	10.1.2.147	49374	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696349636.490327	CqByGH3o6jVv8qU4a	10.1.2.147	49428	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696349834.497015	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696349841.610034	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\sysvol	-	-	DISK
+1696350536.483913	CZMRWC2JR3Kxsczbt7	10.1.2.147	49626	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696351436.464261	CXggZYHWt0sovQkZ4	10.1.2.147	49637	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696352336.449964	CZI5MJ1IZlIF7C2SG9	10.1.2.147	49646	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+1696353236.440317	CfmTkV1Zpha1c1Iam5	10.1.2.147	49653	10.1.2.2	445	\\\\WIN-PG9RKA8T65S.lasttoarrive.org\\IPC$	-	-	PIPE
+#close	2026-09-23-18-29-30

@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2026-09-23-18-29-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1696345136.557471	Ci29vO3u1wtcSZqyFe	10.1.2.147	49332	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696346036.549392	CZLpsG2kkLPWRWGm2g	10.1.2.147	49340	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696346897.035537	CY3qeT3o2oIEwlzWHk	10.1.2.147	49352	10.1.2.2	49668	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696346897.164500	ChESmm4YFMJOg0NaSe	10.1.2.147	49353	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696346897.175272	COVH6M1SZ5i6tHWfj3	10.1.2.147	49354	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696346936.526757	CvjNcO1oIIFQOOoFC	10.1.2.147	49355	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696347836.522449	CZ0Jar4Zb8pFcUOJ4e	10.1.2.147	49362	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696348736.503798	CgPSOU1r1VNOAXMwOh	10.1.2.147	49374	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349199.624155	CLTryKqh9MiM2tmdh	10.1.2.147	49380	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349199.634610	CoK2z12tAdPJNpmLt7	10.1.2.147	49381	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349199.730918	CiCJvc3gBHErg7u3T2	10.1.2.147	49383	10.1.2.2	49668	AP	/LASTTOARRIVE.ORG	LDAP/WIN-PG9RKA8T65S.lasttoarrive.org/lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349636.487787	CqByGH3o6jVv8qU4a	10.1.2.147	49428	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349834.494737	CkgAzu4mH1et4Iosx5	10.1.2.147	49521	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349840.326704	C2PtuO3eSH3ru62xjh	10.1.2.147	49527	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	LDAP/WIN-PG9RKA8T65S.lasttoarrive.org/lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349840.334875	CSR24N34Swla9FdMxa	10.1.2.147	49528	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349840.948822	CKcA312IU9YrONDQic	10.1.2.147	49531	10.1.2.2	49668	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349841.274534	CTr8cH2ojqzeJZzdHb	10.1.2.147	49532	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696349841.291801	CN8plXDlpW7KI7ZJ6	10.1.2.147	49533	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696350497.010254	C6tXBdDzelfdM2ifb	10.1.2.147	49623	10.1.2.2	49668	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696350497.020779	CmjENU2vVRcfpSsEb1	10.1.2.147	49624	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696350497.026075	CyE3ypV6j6rXY83k5	10.1.2.147	49625	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696350536.480850	CZMRWC2JR3Kxsczbt7	10.1.2.147	49626	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696350748.759510	CPKJ7k1qpwYVRuup84	10.1.2.147	49631	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	ldap/win-pg9rka8t65s.lasttoarrive.org/LASTTOARRIVE.ORG	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696350748.768110	CvJEFV38HxkxchP7cb	10.1.2.147	49632	10.1.2.2	389	AP	/LASTTOARRIVE.ORG	LDAP/WIN-PG9RKA8T65S.lasttoarrive.org/lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696351436.461395	CXggZYHWt0sovQkZ4	10.1.2.147	49637	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696352336.446885	CZI5MJ1IZlIF7C2SG9	10.1.2.147	49646	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1696353236.437169	CfmTkV1Zpha1c1Iam5	10.1.2.147	49653	10.1.2.2	445	AP	/LASTTOARRIVE.ORG	cifs/WIN-PG9RKA8T65S.lasttoarrive.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+#close	2026-09-23-18-29-30

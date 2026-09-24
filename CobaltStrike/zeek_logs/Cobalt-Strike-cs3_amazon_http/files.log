@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-09-23-18-30-05
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1649346738.357265	FeDQqu17SeoAZYxtna	CMJuWFwJt4YLkuXOl	192.168.56.5	59007	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	7152	7152	0	0	F	-	-	-	-	-	-	-
+1649346743.871106	FKH6mp1kJnxKhKDjYa	CFXhBC4m8MiAGeCWuh	192.168.56.5	59009	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	136	136	0	0	F	-	-	-	-	-	-	-
+1649346775.923864	FOki1q1G3qTReYP2J5	C8gw2F3bPocAuuWUK2	192.168.56.5	59011	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	432	432	0	0	F	-	-	-	-	-	-	-
+1649346871.389188	Fs57J23lECYxvbT494	CPXlPP3rcJ8EqRyeIa	192.168.56.5	59028	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	92	92	0	0	F	-	-	-	-	-	-	-
+1649346878.899186	FjQqK12AUqGk8rcUDl	CziQln4x2ORVIaLFPf	192.168.56.5	59030	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	11208	11208	0	0	F	-	-	-	-	-	-	-
+1649346944.512123	Fv69XN1N9QTw9Upsyk	CS8Cee3AWf7RN9bWQe	192.168.56.5	59032	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	1288	1288	0	0	F	-	-	-	-	-	-	-
+1649346959.366388	FL8Wh22TmXRp37kAbb	Cnn4z74QCDuAhrzZba	192.168.56.5	59034	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.007275	T	T	210504	210504	0	0	F	-	-	-	-	-	-	-
+1649347014.548750	FocRZc48GFSc7Ks8Z3	Cc9S7a3AR1jqln6a3h	192.168.56.5	59036	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.006881	T	T	113912	113912	0	0	F	-	-	-	-	-	-	-
+1649347022.331486	FSm4Jp1kLWpEntGO2d	C2n4tU1MpogEYARmE1	192.168.56.5	59038	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	696	696	0	0	F	-	-	-	-	-	-	-
+1649347070.729214	F77age4UclhnvzxKG6	CR7Eeo1fN128WgNLni	192.168.56.5	59049	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	92	92	0	0	F	-	-	-	-	-	-	-
+#close	2026-09-23-18-30-05

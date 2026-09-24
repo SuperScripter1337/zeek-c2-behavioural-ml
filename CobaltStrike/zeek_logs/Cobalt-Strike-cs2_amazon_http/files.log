@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-09-23-18-30-34
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1649345987.232141	FNWr5945vXsO1tmpua	CCcfzY1zVlUlA2DCJe	192.168.56.5	55887	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	880	880	0	0	F	-	-	-	-	-	-	-
+1649346017.910081	Fl2I0R7OuVkLZmcrg	CwnAGg1ivB2vOLZro3	192.168.56.5	55889	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	92	92	0	0	F	-	-	-	-	-	-	-
+1649346023.470579	FfVvZt2Qz5VZFcjIEc	CbAF6B2FfjeINalB91	192.168.56.5	55891	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	112	112	0	0	F	-	-	-	-	-	-	-
+1649346050.471221	F9wsCv4UdNJYv9zjO3	Ci34P82NnL3O6y1kja	192.168.56.5	55893	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	264	264	0	0	F	-	-	-	-	-	-	-
+1649346056.158969	FJQaJ92WjeibJvbu44	CCGPtM2s4adTp6VEMc	192.168.56.5	55895	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	624	624	0	0	F	-	-	-	-	-	-	-
+1649346116.244837	FA8nSC3suRTOJbk2B4	CKwRTG3h3VdclMHl57	192.168.56.5	55897	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	136	136	0	0	F	-	-	-	-	-	-	-
+1649346121.044419	FXk4Rs3bfyAgMBj7cb	Cm5Iab35NF4TYy86ad	192.168.56.5	55899	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	92	92	0	0	F	-	-	-	-	-	-	-
+1649346171.486569	FiKkR41yVGAtxSItL1	CMjMQG26zmKuB1Fp07	192.168.56.5	55902	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	348	348	0	0	F	-	-	-	-	-	-	-
+1649346203.834432	FoBqoQlUM6rS8RFq7	C5yLzu4jPiolDufWfj	192.168.56.5	56928	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	6624	6624	0	0	F	-	-	-	-	-	-	-
+1649346208.876568	FN4AeG1aSEA3oFz3wl	CQLVsM1fM18zyMcATa	192.168.56.5	56930	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.004840	T	T	112652	112652	0	0	F	-	-	-	-	-	-	-
+1649346218.263334	FunQ1w4Ok9yqSXI2Ic	C1GFMM2y0BfcoSidn9	192.168.56.5	58378	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	136	136	0	0	F	-	-	-	-	-	-	-
+1649346222.374113	FAVmeE3bpaIMnmlSVi	CgvnZu2JHQPZlm13uc	192.168.56.5	58390	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	F	42	-	0	0	F	-	-	-	-	-	-	-
+1649346249.922387	FFwIcF1A3pP7aSjZcg	CIyFmj1hElF2wy9j12	192.168.56.5	58984	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	204	204	0	0	F	-	-	-	-	-	-	-
+1649346254.749327	FzAkdB2qG8doNCuFig	Ch2xFV3jkPeSEKDIn	192.168.56.5	58986	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	304	304	0	0	F	-	-	-	-	-	-	-
+1649346324.630236	Fj4QUq1tSE3jmyTzKg	CTTZ3U1r1G7zsesAOb	192.168.56.5	58995	192.168.56.4	80	HTTP	0	(empty)	text/plain	-	0.000000	T	T	1136	1136	0	0	F	-	-	-	-	-	-	-
+#close	2026-09-23-18-30-35

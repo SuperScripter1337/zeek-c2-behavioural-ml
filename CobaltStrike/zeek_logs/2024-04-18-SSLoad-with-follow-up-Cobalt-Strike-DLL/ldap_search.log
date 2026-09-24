@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2026-09-23-18-29-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1713466295.930614	CyJxS51FMKpKnp8U75	10.4.18.169	62409	10.4.18.4	389	24	base	never	-	1	success	-	(&(&(&(&(DnsDomain=partridgecliff.com.)(Host=DESKTOP-PQB4TRZ))(DomainGuid=7797c221-16fa-43d2-941a-dba5e0ce6f13))(NtVer=0x20000016))(DnsHostName=DESKTOP-PQB4TRZ.partridgecliff.com))	-
+1713466296.040267	Cu8K0s22yfWcAJX7Dh	10.4.18.169	49894	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713466544.048892	C7HWqk3b4ElqgG5jx8	10.4.18.169	49903	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713467332.353333	CtGMNw3jX0WDW4hJvl	10.4.18.169	49932	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713467545.018584	CsOVkA1kIyaBLY0O7h	10.4.18.169	59359	10.4.18.4	389	25	base	never	-	1	success	-	(&(&(&(&(DnsDomain=partridgecliff.com.)(Host=DESKTOP-PQB4TRZ))(DomainGuid=7797c221-16fa-43d2-941a-dba5e0ce6f13))(NtVer=0x20000016))(DnsHostName=DESKTOP-PQB4TRZ.partridgecliff.com))	-
+1713467545.146053	CSpqw74yLhnQ1CnMcg	10.4.18.169	49939	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713468639.064049	CR1DD46ZITZvWy4r3	10.4.18.169	55025	10.4.18.4	389	26	base	never	-	1	success	-	(&(&(&(&(DnsDomain=partridgecliff.com.)(Host=DESKTOP-PQB4TRZ))(DomainGuid=7797c221-16fa-43d2-941a-dba5e0ce6f13))(NtVer=0x20000016))(DnsHostName=DESKTOP-PQB4TRZ.partridgecliff.com))	-
+1713468639.180658	CVbJJ6HBmFiqOuGn9	10.4.18.169	49963	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713469244.817239	C1loAR3XQlaTqi4zrc	10.4.18.169	62848	10.4.18.4	389	27	base	never	-	1	success	-	(&(&(&(&(DnsDomain=partridgecliff.com.)(Host=DESKTOP-PQB4TRZ))(DomainGuid=7797c221-16fa-43d2-941a-dba5e0ce6f13))(NtVer=0x00000016))(DnsHostName=DESKTOP-PQB4TRZ.partridgecliff.com))	-
+1713469244.948476	Cb5lIx1xNbJ5TpJlVg	10.4.18.169	49972	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713469837.779587	CcWrmo4oHJGbuR1f08	10.4.18.169	49981	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713470144.144384	CfOTc3tYOyyuUZK5c	10.4.18.169	49994	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713470470.104140	C3HRsQ0Hl06bn00u3	10.4.18.169	50233	10.4.18.4	389	28	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=partridgecliff.com.)(Host=DESKTOP-PQB4TRZ))(DomainSid=S-1-5-21-408266568-3947399335-3725113099))(DomainGuid=7797c221-16fa-43d2-941a-dba5e0ce6f13))(NtVer=0x00000016))(DnsHostName=DESKTOP-PQB4TRZ.partridgecliff.com))	-
+1713470470.225702	CqBdvr1lShxFaZcBwd	10.4.18.169	50000	10.4.18.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1713470470.234420	CqBdvr1lShxFaZcBwd	10.4.18.169	50000	10.4.18.4	389	4	tree	never	DC=partridgecliff,DC=com	1	success	-	(|(distinguishedName=DC=partridgecliff,DC=com))	-
+1713470470.236124	CmUCa01KzFM7TLtp71	10.4.18.169	50235	10.4.18.4	389	29	base	never	-	1	success	-	(&(&(&(&(DnsDomain=partridgecliff.com)(Host=DESKTOP-PQB4TRZ))(DomainGuid=7797c221-16fa-43d2-941a-dba5e0ce6f13))(NtVer=0x20000016))(DnsHostName=DESKTOP-PQB4TRZ.partridgecliff.com))	-
+1713470470.346307	CRCD5b26rX4QYkCH1e	10.4.18.169	50001	10.4.18.4	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1713470470.347052	CRCD5b26rX4QYkCH1e	10.4.18.169	50001	10.4.18.4	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=partridgecliff,DC=com	1	success	-	(objectClass=*)	-
+1713470470.348627	CqBdvr1lShxFaZcBwd	10.4.18.169	50000	10.4.18.4	389	10	tree	never	cn=policies,cn=system,DC=partridgecliff,DC=com	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=partridgecliff,DC=com)))	-
+1713470642.715771	CgxjFx2PsbzTTxBc77	10.4.18.169	50006	10.4.18.4	389	16	tree	never	DC=partridgecliff,DC=com	1	success	-	(|(distinguishedName=DC=partridgecliff,DC=com))	-
+1713470642.721281	CKfVkV3S9spyrflyb	10.4.18.169	50008	10.4.18.4	389	20	base	never	-	1	success	-	(objectClass=*)	-
+1713470642.721873	CKfVkV3S9spyrflyb	10.4.18.169	50008	10.4.18.4	389	21	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=partridgecliff,DC=com	1	success	-	(objectClass=*)	-
+1713470642.722701	CgxjFx2PsbzTTxBc77	10.4.18.169	50006	10.4.18.4	389	22	tree	never	cn=policies,cn=system,DC=partridgecliff,DC=com	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=partridgecliff,DC=com)))	-
+#close	2026-09-23-18-29-39

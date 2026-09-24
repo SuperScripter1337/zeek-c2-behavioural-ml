@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-09-23-18-29-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1669647480.030440	CaZybB6Xuk4IHtg3j	10.11.28.101	49884	209.197.3.8	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?617490ba4a46cd81	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1669647585.523637	Cgdk5u10VnPvbohtLe	10.11.28.101	49888	104.94.77.31	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1669648167.974405	CfVfD22cdPBwiFFaE4	10.11.28.101	49906	172.64.149.82	80	1	GET	cacerts.digicert.com	/DigiCertTLSRSASHA2562020CA1-1.crt	-	1.1	Microsoft-CryptoAPI/10.0	-	0	1218	200	OK	-	-	(empty)	-	-	-	-	-	-	FTyBnw2AHqyPI4JR69	-	-
+1669649692.527911	Cx8IXF4zY7LcU7mHOh	10.11.28.101	49939	72.21.81.240	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?f6b5dd6f8a6a7aa1	-	1.1	Microsoft-CryptoAPI/10.0	-	0	62919	200	OK	-	-	(empty)	-	-	-	-	-	-	FVabxFt7AyRcfyGI1	-	application/vnd.ms-cab-compressed
+1669651268.359462	CyQ8Km2LByKW0VVtLl	10.11.28.101	49985	8.253.197.120	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?022a33fc1fc649c3	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1669651584.874564	C3sAFf2AJwrpoTW2Hl	10.11.28.101	50005	104.94.77.31	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1669651809.555514	CRAoYe24jv4vcSIiy6	10.11.28.101	50038	52.94.236.248	80	1	GET	amazon.com	/your-account	-	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56	-	0	163	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	FBLHAcTl5VhgvEe03	-	text/html
+1669651909.550285	CVSD7R2jBjTOH2zi3c	10.11.28.101	50106	209.197.3.8	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?96539a572b3fbaa2	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1669651909.636201	CVSD7R2jBjTOH2zi3c	10.11.28.101	50106	209.197.3.8	80	2	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?aa499cf18bcba924	-	1.1	Microsoft-CryptoAPI/10.0	-	0	62919	200	OK	-	-	(empty)	-	-	-	-	-	-	FzlziG3oQbPzzKKRq3	-	application/vnd.ms-cab-compressed
+#close	2026-09-23-18-29-14

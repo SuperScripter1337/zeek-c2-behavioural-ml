@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2026-09-23-18-29-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1702924253.252043	ClpIhO16ecrfZjZKXa	10.0.0.101	61661	10.0.0.10	389	170	base	never	-	1	success	-	(&(&(&(&(DnsDomain=sneakytree.farm.)(Host=DESKTOP-JSTG3H4))(DomainGuid=f8536c67-13fe-4065-a265-3cdc10068cae))(NtVer=0x20000016))(DnsHostName=DESKTOP-JSTG3H4.sneakytree.farm))	-
+1702924253.366842	CCdld81zOwtZs0cdq2	10.0.0.101	49885	10.0.0.10	389	171	base	never	-	1	success	-	(&(&(&(&(DnsDomain=SNEAKYTREE.FARM)(Host=DESKTOP-JSTG3H4))(DomainGuid=f8536c67-13fe-4065-a265-3cdc10068cae))(NtVer=0x20000016))(DnsHostName=DESKTOP-JSTG3H4.sneakytree.farm))	-
+1702924253.572069	Cw45nI3n16HkI8Diyj	10.0.0.101	55105	10.0.0.10	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1702924253.585687	Cw45nI3n16HkI8Diyj	10.0.0.101	55105	10.0.0.10	389	4	tree	never	DC=sneakytree,DC=farm	1	success	-	(|(distinguishedName=DC=sneakytree,DC=farm))	-
+1702924253.587551	CUkQCh47Uw1oQJEJIg	10.0.0.101	49887	10.0.0.10	389	172	base	never	-	1	success	-	(&(&(&(&(DnsDomain=sneakytree.farm)(Host=DESKTOP-JSTG3H4))(DomainGuid=f8536c67-13fe-4065-a265-3cdc10068cae))(NtVer=0x20000016))(DnsHostName=DESKTOP-JSTG3H4.sneakytree.farm))	-
+1702924253.694921	Chhq4e28YrDXLIzll8	10.0.0.101	55107	10.0.0.10	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1702924253.695705	Chhq4e28YrDXLIzll8	10.0.0.101	55107	10.0.0.10	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=sneakytree,DC=farm	1	success	-	(objectClass=*)	-
+1702924253.697580	Cw45nI3n16HkI8Diyj	10.0.0.101	55105	10.0.0.10	389	10	tree	never	cn=policies,cn=system,DC=sneakytree,DC=farm	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=sneakytree,DC=farm)))	-
+1702924475.534637	Co5DDPM9RBlnyc876	10.0.0.101	49888	10.0.0.10	389	173	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=sneakytree.farm.)(Host=DESKTOP-JSTG3H4))(DomainSid=S-1-5-21-408266568-3947399335-3725113099))(DomainGuid=f8536c67-13fe-4065-a265-3cdc10068cae))(NtVer=0x00000016))(DnsHostName=DESKTOP-JSTG3H4.sneakytree.farm))	-
+1702924475.969266	CmGPz01hpWYrOGG6Cf	10.0.0.101	55116	10.0.0.10	389	16	tree	never	DC=sneakytree,DC=farm	1	success	-	(|(distinguishedName=DC=sneakytree,DC=farm))	-
+1702924475.974161	CBoCVE3sOgxaBCVaFa	10.0.0.101	55117	10.0.0.10	389	20	base	never	-	1	success	-	(objectClass=*)	-
+1702924475.974697	CBoCVE3sOgxaBCVaFa	10.0.0.101	55117	10.0.0.10	389	21	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=sneakytree,DC=farm	1	success	-	(objectClass=*)	-
+1702924475.975421	CmGPz01hpWYrOGG6Cf	10.0.0.101	55116	10.0.0.10	389	22	tree	never	cn=policies,cn=system,DC=sneakytree,DC=farm	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=sneakytree,DC=farm)))	-
+1702926047.934475	CUR9dl1UIdd1vxaem5	10.0.0.101	55212	10.0.0.10	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1702926047.949548	CYzhMM37hV5BRiR5sg	10.0.0.101	55213	10.0.0.10	389	8	base	never	dc=sneakytree,dc=farm	1	success	-	(objectClass=*)	-
+1702926047.950702	CYzhMM37hV5BRiR5sg	10.0.0.101	55213	10.0.0.10	389	9	base	never	-	1	success	-	(objectClass=*)	-
+1702926047.960619	CYzhMM37hV5BRiR5sg	10.0.0.101	55213	10.0.0.10	389	11	tree	never	dc=sneakytree,dc=farm	6	success	-	(objectclass=computer)	-
+1702926047.962857	CYzhMM37hV5BRiR5sg	10.0.0.101	55213	10.0.0.10	389	12	base	never	-	1	success	-	(objectClass=*)	-
+1702926047.963967	CYzhMM37hV5BRiR5sg	10.0.0.101	55213	10.0.0.10	389	13	base	never	CN=Schema,CN=Configuration,DC=sneakytree,DC=farm	1	success	-	(objectClass=dMD)	-
+1702926047.964877	CYzhMM37hV5BRiR5sg	10.0.0.101	55213	10.0.0.10	389	14	base	never	CN=Schema,CN=Configuration,DC=sneakytree,DC=farm	1	success	-	(objectClass=dMD)	-
+1702926047.967690	CYzhMM37hV5BRiR5sg	10.0.0.101	55213	10.0.0.10	389	15	base	never	CN=Aggregate,CN=Schema,CN=Configuration,DC=sneakytree,DC=farm	1	success	-	(objectClass=*)	-
+#close	2026-09-23-18-29-38

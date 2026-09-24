@@ -1,0 +1,46 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2026-09-23-18-29-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1713466295.918593	CIoS7qgLYI8lGHf9e	10.4.18.169	49893	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713466296.041889	Cu8K0s22yfWcAJX7Dh	10.4.18.169	49894	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713466296.048834	CYlzpW3mvu9Erdfg6	10.4.18.169	49895	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713466430.191022	C91DJ43vEX7tAWMGag	10.4.18.169	49900	10.4.18.4	445	AP	/PARTRIDGECLIFF.COM	cifs/PARTRIDGE-DC.partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713466544.036250	CgNzjcWGar7Qmj1lg	10.4.18.169	49902	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713466544.050711	C7HWqk3b4ElqgG5jx8	10.4.18.169	49903	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713466544.058339	CKZhgSYApAadeDSaa	10.4.18.169	49904	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713467330.328507	CZxewVfmVRqQQmVVc	10.4.18.169	49929	10.4.18.4	445	AP	/PARTRIDGECLIFF.COM	cifs/PARTRIDGE-DC.partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713467332.340649	Cr8Uh64daujDM8gIo5	10.4.18.169	49931	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713467332.355154	CtGMNw3jX0WDW4hJvl	10.4.18.169	49932	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713467332.362911	CKrcmg4YeBv51A62S9	10.4.18.169	49933	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713467545.134027	CpGHOZRtO8yZWzwWd	10.4.18.169	49938	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713467545.147673	CSpqw74yLhnQ1CnMcg	10.4.18.169	49939	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713467545.154132	CHbd5q2390T4cd7Xl8	10.4.18.169	49940	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713468230.333920	CpG2311AzwgsyZXJu2	10.4.18.169	49952	10.4.18.4	445	AP	/PARTRIDGECLIFF.COM	cifs/PARTRIDGE-DC.partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713468639.049121	CmZOPS3spTUx1bcxIk	10.4.18.169	49960	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713468639.054990	CS5pgU2AVwHaTRnsr	10.4.18.169	49962	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713468639.182292	CVbJJ6HBmFiqOuGn9	10.4.18.169	49963	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713468639.189089	CYN99RPh0gJyzhmcf	10.4.18.169	49964	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713469130.454964	CECG8G4ujWO8xep1bk	10.4.18.169	49969	10.4.18.4	445	AP	/PARTRIDGECLIFF.COM	cifs/PARTRIDGE-DC.partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713469244.936570	CuGM2X1DlCYWPmBoPi	10.4.18.169	49971	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713469244.950031	Cb5lIx1xNbJ5TpJlVg	10.4.18.169	49972	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713469244.955548	CEQqpg1p4Q9QLhrq24	10.4.18.169	49973	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713469837.767031	CgN6mg1YnL8NY6z0ac	10.4.18.169	49980	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713469837.781428	CcWrmo4oHJGbuR1f08	10.4.18.169	49981	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713469837.789255	CNoxQA4Q4GuwKtWok9	10.4.18.169	49982	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470030.681096	COSx7p2Gb00VzeTpZf	10.4.18.169	49991	10.4.18.4	445	AP	/PARTRIDGECLIFF.COM	cifs/PARTRIDGE-DC.partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470144.131394	CcKgc52oClZ8dr7g5d	10.4.18.169	49993	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470144.146109	CfOTc3tYOyyuUZK5c	10.4.18.169	49994	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470144.153898	CeR3G139x17ucU8LQe	10.4.18.169	49995	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470470.108802	Cqtgxb1wNEnPOEGcwj	10.4.18.169	49998	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470470.227876	CqBdvr1lShxFaZcBwd	10.4.18.169	50000	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470470.344971	CRCD5b26rX4QYkCH1e	10.4.18.169	50001	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470642.705654	CgxjFx2PsbzTTxBc77	10.4.18.169	50006	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470642.706701	CqMUtj4KNcepB7UEO9	10.4.18.169	50007	10.4.18.4	49669	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470642.719132	CKfVkV3S9spyrflyb	10.4.18.169	50008	10.4.18.4	389	AP	/PARTRIDGECLIFF.COM	LDAP/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1713470642.733481	C0e553EbUcPPQWyej	10.4.18.169	50009	10.4.18.4	445	AP	/PARTRIDGECLIFF.COM	cifs/PARTRIDGE-DC.partridgecliff.com/partridgecliff.com	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+#close	2026-09-23-18-29-39
