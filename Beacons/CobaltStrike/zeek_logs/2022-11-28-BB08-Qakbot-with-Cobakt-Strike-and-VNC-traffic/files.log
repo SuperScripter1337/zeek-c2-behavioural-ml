@@ -1,0 +1,48 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-09-23-18-29-13
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1669647419.509769	FExzcezmsBphw1wp3	Ck6XFF3dI1sVNwV8Fe	10.11.28.101	49882	20.189.173.15	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1669648168.033222	FTyBnw2AHqyPI4JR69	CfVfD22cdPBwiFFaE4	10.11.28.101	49906	172.64.149.82	80	HTTP	0	(empty)	-	-	0.000005	F	F	1218	1218	0	0	F	-	-	-	-	-	-	-
+1669648423.949366	FNkPRqj6QuR0wjy0k	CMSnk14EDrLodIsFJb	10.11.28.101	49912	40.126.7.35	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669648424.713355	Fr0h0V1cC8aqog3aK6	Cs2G9r4N5xWBg3u5e5	10.11.28.101	49913	20.241.21.128	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669648498.077810	FXKIxx4ndygdxhDhxg	C0gENzeN2nGoB0uK8	10.11.28.101	49914	51.105.71.136	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1741	-	0	0	F	-	-	-	-	-	-	-
+1669649692.570830	FVabxFt7AyRcfyGI1	Cx8IXF4zY7LcU7mHOh	10.11.28.101	49939	72.21.81.240	80	HTTP	0	(empty)	application/vnd.ms-cab-compressed	-	0.078931	F	F	62919	62919	0	0	F	-	-	-	-	-	-	-
+1669651245.768336	FWvQKKhEgf9QfMWf3	CatgZ2jumBIYActc	10.11.28.101	49983	10.11.28.2	445	SMB	0	(empty)	text/ini	mytallbeer.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	T	F	22	22	0	0	F	-	-	-	-	-	-	-
+1669651245.782744	FQgLAY2zK3hBVFoOA2	CatgZ2jumBIYActc	10.11.28.101	49983	10.11.28.2	445	SMB	0	(empty)	text/ini	mytallbeer.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft\\Windows NT\\SecEdit\\GptTmpl.inf	0.000000	T	F	1098	1098	0	0	F	-	-	-	-	-	-	-
+1669651245.788426	FpefhU1Fv0iAIPPz6g	CatgZ2jumBIYActc	10.11.28.101	49983	10.11.28.2	445	SMB	0	(empty)	application/vnd.ms-pol	mytallbeer.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Registry.pol	0.000000	T	F	2798	2798	0	0	F	-	-	-	-	-	-	-
+1669651245.793947	FWvQKKhEgf9QfMWf3	CatgZ2jumBIYActc	10.11.28.101	49983	10.11.28.2	445	SMB	0	(empty)	text/ini	mytallbeer.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	T	F	22	22	0	0	F	-	-	-	-	-	-	-
+1669651768.440109	FGAxIM2JeGNrVE5gJ1	CeEXSb34MuJWBR6dqk	10.11.28.101	50013	13.107.42.16	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1669651771.513632	FRQessD544koXAH44	CQvedL1cNue4K2FlG6	10.11.28.101	50019	131.253.33.239	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1741	-	0	0	F	-	-	-	-	-	-	-
+1669651792.077017	F0V2W34c20SZ3dqiH9	CL7LcL37us0UmNpZ49	10.11.28.101	50020	204.79.197.203	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1669651792.456310	FMXkBN3XlDEh9LrdRi	CL3SGZ2BptCH1r8Enb	10.11.28.101	50021	204.79.197.203	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1669651792.643448	FuIVhG2wOivzJSwwHh	C8bVi220bwvV9TntQ7	10.11.28.101	50027	204.79.197.200	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1669651792.643517	FZoVUB4Mz8ExRILOUb	CFW0nF3NEfkY4i5EH2	10.11.28.101	50025	23.47.50.165	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669651792.646994	Fr8z2J2yl7VwWsu0Yk	CtaYJT2DlmiKYX0sr3	10.11.28.101	50026	20.221.206.60	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1741	-	0	0	F	-	-	-	-	-	-	-
+1669651792.712955	FSoq44Px613C31Ksc	CcGEAV3UzQvTjs0ijf	10.11.28.101	50028	131.253.33.200	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1669651793.260065	FMbMaV3NIWutohNnhg	Cd4H5mL4MOQNI9v1d	10.11.28.101	50030	131.253.33.239	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1741	-	0	0	F	-	-	-	-	-	-	-
+1669651793.277690	FNkYAx37e4owduJi6f	CcjjDd1ZvcO0oGdR7a	10.11.28.101	50034	204.79.197.219	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1669651793.278379	Fza0QG3xx4RaUdNMti	C2Lk5b1TWzm934fQdl	10.11.28.101	50035	204.79.197.219	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1669651793.311670	FJKKiN2uMQoPOM62Hf	CMiWPaJqyrP48IBIh	10.11.28.101	50036	13.107.21.200	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1669651793.352774	Ffs78d38BorWnmzxe4	Cf4mOW3LL5mKwN4fe2	10.11.28.101	50037	13.107.21.200	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1669651793.367736	FEQhT54fbycpiqlZL2	CGQ6m038yM4IIKD6Da	10.11.28.101	50031	20.42.65.88	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1669651793.393535	Fl54lw4I237eTVrzL4	Ct3xfG1XYy6OFQ80T8	10.11.28.101	50032	20.42.65.88	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1741	-	0	0	F	-	-	-	-	-	-	-
+1669651793.393617	Ft9ITC3dLyXBWUUnA7	Cvnde2VJZNQPOfjN7	10.11.28.101	50033	20.42.65.88	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1741	-	0	0	F	-	-	-	-	-	-	-
+1669651809.752214	FBLHAcTl5VhgvEe03	CRAoYe24jv4vcSIiy6	10.11.28.101	50038	52.94.236.248	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	163	163	0	0	F	-	-	-	-	-	-	-
+1669651809.912434	FCEwDx4jXnvIEext67	CvWxgZ36LOud6tOyy9	10.11.28.101	50039	52.94.236.248	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669651811.626536	FexnNk1hRRjrqKluGa	C1XHTQ3VJuo5Uhgipb	10.11.28.101	50042	52.46.145.203	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669651811.638850	Fk0jFE17EvrqFgZEoi	COKf5v3BQg34vIn9o6	10.11.28.101	50048	52.46.145.203	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669651811.862448	FgRe0knMrctoEtuR5	CPS9SG5vwQONMFzuf	10.11.28.101	50049	54.239.29.0	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669651811.961823	FsQFRB23b3HlgHEtkb	CcyX6k1YfSxpEbfA8b	10.11.28.101	50053	52.46.144.253	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669651812.222699	FxQYvx3XQ8EITb1azk	CfOtHE31V8SNcA1B5a	10.11.28.101	50054	52.46.155.104	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1669651813.307136	FGn39p3LpjHC9w5MJe	C27pvN2hfGbLfTFoS5	10.11.28.101	50074	141.226.124.48	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	312	-	0	0	F	-	-	-	-	-	-	-
+1669651813.389103	FwY0Qa3yg28iyOdc4d	CD4UxQ1tWYtgPHV8Dd	10.11.28.101	50077	141.226.124.48	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	312	-	0	0	F	-	-	-	-	-	-	-
+1669651828.674772	F882nZ1IYK5w7RB2zk	CRZtC3pRwZqmFAjV7	10.11.28.101	50093	131.253.33.239	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1669651849.033627	FMUQ6a3bbUAybciZFd	C61OQQ1IMYQPLJDX56	10.11.28.101	50097	52.168.112.67	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1669651909.710533	FzlziG3oQbPzzKKRq3	CVSD7R2jBjTOH2zi3c	10.11.28.101	50106	209.197.3.8	80	HTTP	0	(empty)	application/vnd.ms-cab-compressed	-	0.127565	F	F	62919	62919	0	0	F	-	-	-	-	-	-	-
+1669651960.757590	FvCTXIKSzvGKOWLb	Cp5Cox4hETaLMElSL9	10.11.28.101	50107	52.109.77.1	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+#close	2026-09-23-18-29-14

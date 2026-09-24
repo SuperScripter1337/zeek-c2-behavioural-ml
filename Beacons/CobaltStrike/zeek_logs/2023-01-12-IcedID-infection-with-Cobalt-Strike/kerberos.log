@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2026-09-23-18-29-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1673546120.055642	CXQesiLrMr3aZoR67	172.18.127.129	55951	172.18.127.9	445	AP	/TANGERINEBOX.TECH	cifs/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673546497.777598	Cc8BoD3m9y66zZ2UB6	172.18.127.129	55961	172.18.127.9	389	AP	/TANGERINEBOX.TECH	LDAP/TANGERINEBOX-DC.tangerinebox.tech/tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673546556.781312	Cd2GxH1WE9IlyXPja1	172.18.127.129	55967	172.18.127.9	445	AP	/TANGERINEBOX.TECH	cifs/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673547456.817115	CnIkRMZgu3bNOKRP7	172.18.127.129	55973	172.18.127.9	445	AP	/TANGERINEBOX.TECH	cifs/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673547876.928981	CDXpro4HXC4UscEM6b	172.18.127.129	55976	172.18.127.9	49667	AP	/TANGERINEBOX.TECH	LDAP/TANGERINEBOX-DC.tangerinebox.tech/tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673547877.042978	C5Etwv1U7zlGf4UDTk	172.18.127.129	55977	172.18.127.9	389	AP	/TANGERINEBOX.TECH	LDAP/TANGERINEBOX-DC.tangerinebox.tech/tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673547877.049014	CnHqkGmxBazDo7Zy1	172.18.127.129	55978	172.18.127.9	389	AP	/TANGERINEBOX.TECH	LDAP/TANGERINEBOX-DC.tangerinebox.tech/tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673548356.852131	CBAHTo3bnYgD89ymq4	172.18.127.129	55982	172.18.127.9	445	AP	/TANGERINEBOX.TECH	cifs/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673549256.831409	CXpbRD3O94MNorPede	172.18.127.129	55988	172.18.127.9	445	AP	/TANGERINEBOX.TECH	cifs/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673550156.836029	CtTrqK1oUHCW6GDmW5	172.18.127.129	55999	172.18.127.9	445	AP	/TANGERINEBOX.TECH	cifs/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673550598.231305	ChJWDnPwoSaPH9KJ2	172.18.127.129	56041	172.18.127.9	445	AP	/TANGERINEBOX.TECH	cifs/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1673550665.801965	CCcZm93BMKRGXNA2q5	172.18.127.129	56057	172.18.127.9	88	TGS	dmorgenstern/TANGERINEBOX.TECH	LDAP/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1673550665.804245	C4pEZ3CUqRkIyrSal	172.18.127.129	56056	172.18.127.9	49667	AP	/TANGERINEBOX.TECH	LDAP/TANGERINEBOX-DC.tangerinebox.tech	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+#close	2026-09-23-18-29-19

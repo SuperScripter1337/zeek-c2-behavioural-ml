@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-09-23-18-29-15
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1670429025.986498	FYEqvcVk5IaTlUoq	CCout21PvCvj9W5jB	10.12.7.101	49968	23.64.170.10	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1670429130.398091	Fd9teoYpXdAsarfx	CklNcV3BEfa47kdBI1	10.12.7.101	49978	20.189.173.6	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1670429131.608877	FpJE4j3es323XXhhj	Cek1dp4oU3x4YoJX5a	10.12.7.101	49980	40.126.7.32	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1670429131.750791	Fkf6WE46PmuAFnJL93	CZzdu1tT2l7RZK8bc	10.12.7.101	49982	72.21.91.29	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+1670429135.921623	FoE8N21XUWRhpAJ2i	CiEgVf1RCWp3Ly4Lal	10.12.7.101	49998	23.5.87.173	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1670429338.373227	FvefnT1nu5Grn7Iasa	CWXTGc2ogPSlRwXX07	10.12.7.101	50017	52.113.195.132	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1670429338.392868	FQG8Cq1Gx5ePHWXcCf	CiwoIS2lbhFJRpIWNi	10.12.7.101	50018	52.113.195.132	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1670431584.627758	FZZWMt4zed2rqlxRM7	CaoW0g26SHFATh0ch2	10.12.7.101	50116	52.113.194.132	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+1670432035.474997	FXdTuO3Nqg8RZxvZ2b	CwP8NiLcbziqy6zj2	10.12.7.101	50131	40.126.7.32	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	-	0	0	F	-	-	-	-	-	-	-
+1670432688.808827	FT8zlbIREgOyHo0r1	CYWN9XG0UEZ0GS2Ic	10.12.7.101	50200	20.44.10.122	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+#close	2026-09-23-18-29-16

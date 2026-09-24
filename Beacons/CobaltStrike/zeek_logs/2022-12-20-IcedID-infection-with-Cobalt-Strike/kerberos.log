@@ -1,0 +1,38 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2026-09-23-18-29-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1671549447.363840	CvuPkY9VOwn2Zj4zb	10.3.24.178	54607	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671549593.259789	CYNpC33aySmRTOeoYa	10.3.24.178	54610	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671550493.222240	CnVdUC4BvUFlMj2IJj	10.3.24.178	54615	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671551199.958087	CW6w9IfwruRSzgjNl	10.3.24.178	54620	10.3.24.4	49667	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671551200.070476	COuvO13F8b5op5Ajj4	10.3.24.178	54621	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671551200.076977	CEFn3GKfdWH9HIDE4	10.3.24.178	54622	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671551393.227608	CUrhca2Ma4WY5ROTig	10.3.24.178	54625	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671552293.148241	CieV564GSihmCIKS32	10.3.24.178	54630	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671552897.293973	CWZ2V913tNg938SHla	10.3.24.178	54656	10.3.24.4	88	TGS	bporter/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1671552897.295429	CnwRe33vAFieoCWkeh	10.3.24.178	54655	10.3.24.4	49667	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553193.334377	C62yrG3rQSvVFA7LNj	10.3.24.178	54728	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553204.835490	CL3m0X1tTKIec431J2	10.3.24.178	54732	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553204.847347	CyecX331Y2bQpLOMy1	10.3.24.178	54733	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553205.075825	CRYJJo9T42FiWGJD	10.3.24.178	54735	10.3.24.4	88	TGS	bporter/HEYHEYHEY.ORG	cifs/DESKTOP-ST6VVBN.heyheyhey.org	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1671553205.077563	CnPMiQ2Rjys7gTwcn	10.3.24.178	54734	10.3.24.177	445	AP	/HEYHEYHEY.ORG	cifs/DESKTOP-ST6VVBN.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553398.737122	CPcuBjo9fSE7Sk4Yd	10.3.24.178	54741	10.3.24.4	49667	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553399.058300	Cz63jtQa6D2LB1Jyg	10.3.24.178	54742	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553399.175071	CawoRY246QOiDd6KIi	10.3.24.178	54743	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553399.492617	CV14413UqLI9Ud2GM5	10.3.24.178	54744	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553583.689322	CXCB1X3WaTBYZpkBo3	10.3.24.178	54748	10.3.24.4	49667	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553584.022656	C3vONcANQ3Vhl2SK3	10.3.24.178	54750	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671553584.031027	CrNxvC3yHSHX3m7Rrk	10.3.24.178	54751	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671554093.439243	CgdlTW3bVfQuVFn2R5	10.3.24.178	54754	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671554800.163752	CNNFzi3YRShQ4NSS54	10.3.24.178	54760	10.3.24.4	49667	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671554800.174414	Cvo77NZFc6meTEqyd	10.3.24.178	54761	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671554800.179725	CbdHme4vEvGAIxTVva	10.3.24.178	54762	10.3.24.4	389	AP	/HEYHEYHEY.ORG	LDAP/WIN-JIN5VG4G8PQ.heyheyhey.org/heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671554993.469973	CKR3K84VFhv1zyJF3a	10.3.24.178	54765	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671555893.468610	CsQSKUfphRDL9zvcd	10.3.24.178	54769	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1671556793.495282	CXTggy353VlM3vwX3g	10.3.24.178	54774	10.3.24.4	445	AP	/HEYHEYHEY.ORG	cifs/WIN-JIN5VG4G8PQ.heyheyhey.org	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+#close	2026-09-23-18-29-17

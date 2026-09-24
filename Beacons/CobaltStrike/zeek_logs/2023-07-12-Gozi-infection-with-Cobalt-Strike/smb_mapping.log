@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_mapping
+#open	2026-09-23-18-29-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	path	service	native_file_system	share_type
+#types	time	string	addr	port	addr	port	string	string	string	string
+1689201095.921941	CS5oOX2z6DJHQOkC0e	10.7.12.121	49807	10.7.12.14	139	\\\\WIN-D9LM8E78ZLA\\IPC$	IPC	-	PIPE
+1689201759.498253	C4YVnI1wz1SaDQWLy2	10.7.12.121	49846	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689202033.041260	Cn0bvo3HvZNtr4FCYd	10.7.12.121	49864	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689202495.155618	CdJJUK56glVMnVus	10.7.12.121	49929	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689202617.159208	CfCU7FdHt9W0K1psg	10.7.12.121	49973	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689202659.499386	Ckk69W2U9aszPu4wZ4	10.7.12.121	49983	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689203559.530675	CRXUxt3j8pLkieldL8	10.7.12.121	50175	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689204459.555051	CGcYd03uSqw4t2eDfl	10.7.12.121	50358	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689204578.919447	CtkUN21LEZO7y7UVai	10.7.12.121	50390	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689204954.079339	ConOKnCaddLfQede1	10.7.12.121	50470	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689205359.542025	CbL5qP3xKnS9U7Z571	10.7.12.121	50563	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+1689206259.562332	CQSOPQ2XK8NuGduOwd	10.7.12.121	50758	10.7.12.14	445	\\\\WIN-D9LM8E78ZLA.roundaboutclown.com\\IPC$	-	-	PIPE
+#close	2026-09-23-18-29-28

@@ -1,0 +1,43 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2026-09-23-18-29-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1683737254.426504	ChViDr3IuzmzUMICM7	172.16.10.73	50268	172.16.10.4	389	AP	/TECHNOFUTURE.NET	ldap/win-v5g7zcxm5ku.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683737254.439195	CxrvGuTTWzuOxw2fg	172.16.10.73	50269	172.16.10.4	389	AP	/TECHNOFUTURE.NET	ldap/win-v5g7zcxm5ku.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683738085.932036	CIqeYD10yqerRVgK45	172.16.10.73	50296	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683738231.045062	CaDDDc3zekUaQ1FuPd	172.16.10.73	50305	172.16.10.4	49668	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683738985.965146	C1QVHy1ai7LwBIftn6	172.16.10.73	50342	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683739466.792241	CNdnST1F6suCX5TqSd	172.16.10.73	50362	172.16.10.4	49668	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683739466.911394	CeD3PdbQ4g33Lr30e	172.16.10.73	50364	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683739466.917572	COTtKy3lcLjwzOvGNd	172.16.10.73	50365	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683739713.094807	CEF6Lu3V3edlkLWQc	172.16.10.73	50382	172.16.10.4	49668	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683739713.106570	CRD66xAOoK2sZIiIa	172.16.10.73	50383	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683739713.112531	CgK5mh30h2tPF0cbQ8	172.16.10.73	50384	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683739886.003899	CPG4Hu1KwWVnyy7Ehl	172.16.10.73	50411	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683740192.454531	CfIwYi412ViSmQhMa8	172.16.10.73	50445	172.16.10.4	88	TGS	hous2985/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1683740192.457050	CsKofZhmBSTCKdIB4	172.16.10.73	50444	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683740209.792007	CdRLWI1Dzy3tDJae5k	172.16.10.73	50451	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683740627.599981	CigdiM2a7LS4X5MDz3	172.16.10.73	50473	172.16.10.4	49668	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683740739.261440	C93y1eTUy3xU7lxi	172.16.10.73	50501	172.16.10.4	49668	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683740739.272049	CN4ZeS2a4GTWHT4zO	172.16.10.73	50502	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683740739.276851	CA9WA11sSlHltW0RIe	172.16.10.73	50503	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683740786.036968	CmcyrE3DCyjthCG055	172.16.10.73	50505	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683741686.071104	CDqIQoNowgsMiVh1	172.16.10.73	50530	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683741970.221927	Cx2cHm4ICnHzhp7by5	172.16.10.73	50538	172.16.10.4	49668	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683741970.228774	CE3EeX3GEfIr86vX83	172.16.10.73	50539	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683741970.478240	CH3Fnr4zfoCGw3ROz8	172.16.10.73	50540	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683741970.493456	CqU6W01uB7GoTmE5Mi	172.16.10.73	50541	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683742511.154754	CFkhc81RabbwXTQ833	172.16.10.73	50556	172.16.10.4	49668	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683742511.158505	CCCW1y1RR5SE81Bck7	172.16.10.73	50558	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683742511.275249	CtZkSpMUIEwIzLqM5	172.16.10.73	50559	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683742586.097218	CVz4Mo4sKRI6Pc3Pk5	172.16.10.73	50561	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683743486.088320	CgHyr64GRlae6NcQ1l	172.16.10.73	50579	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683744339.294399	CQXCKQMpC4kdlESlg	172.16.10.73	50610	172.16.10.4	49668	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683744339.410695	Cd52WF3P3FIkTFwsG5	172.16.10.73	50611	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683744339.417214	CvtdOd2WzyTIMFCUe5	172.16.10.73	50612	172.16.10.4	389	AP	/TECHNOFUTURE.NET	LDAP/WIN-V5G7ZCXM5KU.technofuture.net/technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+1683744386.105116	Cw3yxm1HgUFtTZqBMl	172.16.10.73	50613	172.16.10.4	445	AP	/TECHNOFUTURE.NET	cifs/WIN-V5G7ZCXM5KU.technofuture.net	T	-	-	-	aes256-cts-hmac-sha1-96	-	-	-	-	-	-
+#close	2026-09-23-18-29-25

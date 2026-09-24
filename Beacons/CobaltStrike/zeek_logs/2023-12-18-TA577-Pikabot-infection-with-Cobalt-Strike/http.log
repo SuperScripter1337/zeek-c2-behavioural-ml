@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-09-23-18-29-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1702920835.165052	Cg9dgh4gUPDnjDcF5a	10.0.0.101	55051	41.185.8.61	80	1	GET	tsdandassociates.co.sz	/w0ks/?92444881	-	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0	-	0	197	200	OK	-	-	(empty)	-	-	-	-	-	-	F5Zx9z4Doak3sm1oye	-	text/plain
+1702920835.490803	Cg9dgh4gUPDnjDcF5a	10.0.0.101	55051	41.185.8.61	80	2	GET	tsdandassociates.co.sz	/favicon.ico	http://tsdandassociates.co.sz/w0ks/?92444881	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0	-	0	1238	404	Not Found	-	-	(empty)	-	-	-	-	-	-	F6a1SA4K34mUofGkx4	-	text/html
+1702920838.492974	Cg9dgh4gUPDnjDcF5a	10.0.0.101	55051	41.185.8.61	80	3	GET	tsdandassociates.co.sz	/w0ks//?YO=1702920835	http://tsdandassociates.co.sz/w0ks/?92444881	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0	-	0	85834	200	OK	-	-	(empty)	-	-	-	-	-	-	FFfirn2iSSUxEX3Ruh	TD.zip	application/zip
+1702920849.912459	CPC8Op1D9xxiKpVW7b	10.0.0.101	55052	41.185.8.61	80	1	-	-	-	-	1.0	-	-	0	91	400	Bad request	-	-	(empty)	-	-	-	-	-	-	Fqsvo73OqbAWAqUQki	-	text/html
+#close	2026-09-23-18-29-38

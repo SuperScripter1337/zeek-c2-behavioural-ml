@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_mapping
+#open	2026-09-23-18-29-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	path	service	native_file_system	share_type
+#types	time	string	addr	port	addr	port	string	string	string	string
+1713466430.194490	C91DJ43vEX7tAWMGag	10.4.18.169	49900	10.4.18.4	445	\\\\PARTRIDGE-DC.partridgecliff.com\\IPC$	-	-	PIPE
+1713467330.331730	CZxewVfmVRqQQmVVc	10.4.18.169	49929	10.4.18.4	445	\\\\PARTRIDGE-DC.partridgecliff.com\\IPC$	-	-	PIPE
+1713468230.337418	CpG2311AzwgsyZXJu2	10.4.18.169	49952	10.4.18.4	445	\\\\PARTRIDGE-DC.partridgecliff.com\\IPC$	-	-	PIPE
+1713469130.458422	CECG8G4ujWO8xep1bk	10.4.18.169	49969	10.4.18.4	445	\\\\PARTRIDGE-DC.partridgecliff.com\\IPC$	-	-	PIPE
+1713470030.684634	COSx7p2Gb00VzeTpZf	10.4.18.169	49991	10.4.18.4	445	\\\\PARTRIDGE-DC.partridgecliff.com\\IPC$	-	-	PIPE
+1713470642.736222	C0e553EbUcPPQWyej	10.4.18.169	50009	10.4.18.4	445	\\\\PARTRIDGE-DC.partridgecliff.com\\sysvol	-	-	DISK
+#close	2026-09-23-18-29-39

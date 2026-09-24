@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-09-23-18-38-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1783079524.820273	CXjZ3a27yU37emYhS3	172.20.0.8	49044	104.16.123.96	443	window_recision	-	F	zeek	-
+#close	2026-09-23-18-39-20

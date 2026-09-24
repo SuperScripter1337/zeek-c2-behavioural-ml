@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-09-23-18-29-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1673546047.455243	CAAxiG3FGVTjG8cd77	172.18.127.129	55942	162.33.177.186	80	1	GET	allertmnemonkik.com	/	-	1.1	-	-	0	544003	200	OK	-	-	(empty)	-	-	-	-	-	-	FYo0JH3OgFFfntRwz2	-	application/x-gzip
+1673549258.023119	Cn98KB4BOb9RMYPGKi	172.18.127.129	55989	208.111.176.64	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?eac4b06629d87b2e	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1673549466.741018	CIXm1n2EQYwhwuBOeg	172.18.127.129	55992	208.111.176.128	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?174efe26f5771548	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1673550353.486194	CWGE9l3Q98sg5HG4V	172.18.127.129	56001	199.127.60.47	80	1	GET	199.127.60.47	/download/sg.exe	-	1.1	-	-	0	540672	200	OK	-	-	(empty)	-	-	-	-	-	-	F2BRVD3Y9urhLX4aGc	-	application/x-dosexec
+1673550358.569122	CxJSYn3RsBtxe4Gcte	172.18.127.129	56003	91.199.212.52	80	1	GET	crt.sectigo.com	/SectigoRSADomainValidationSecureServerCA.crt	-	1.1	Microsoft-CryptoAPI/10.0	-	0	1559	200	OK	-	-	(empty)	-	-	-	-	-	-	FvU5eYB8ri7xXTBck	-	-
+#close	2026-09-23-18-29-19

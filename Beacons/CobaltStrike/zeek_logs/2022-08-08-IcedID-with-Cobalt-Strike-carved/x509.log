@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2026-09-23-18-29-09
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1659989756.860401	7970208f144c16e23e1c823ff943c4d8b415344b198c2d2cacc43ff1bff1b09e	3	30318AA8	O=Internet Widgits Pty Ltd,ST=Some-State,C=AU,CN=localhost	O=Internet Widgits Pty Ltd,ST=Some-State,C=AU,CN=localhost	1659512491.000000	1691048491.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-	T	F
+1659989760.256361	28032b2b0846c6a8e4026d426eb015e210fe1308e47f4c55dac03ed7e8c1c45e	3	4C32A9EF	O=Internet Widgits Pty Ltd,ST=Some-State,C=AU,CN=localhost	O=Internet Widgits Pty Ltd,ST=Some-State,C=AU,CN=localhost	1659949238.000000	1691485238.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-	T	F
+1659992775.872697	75e010e23d7a27b3cb97024237d5509bc7ae9eb6b69c5a6284af2563b1c621b1	3	4E8069E4	O=Internet Widgits Pty Ltd,ST=Some-State,C=AU,CN=localhost	O=Internet Widgits Pty Ltd,ST=Some-State,C=AU,CN=localhost	1657221129.000000	1688757129.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-	T	F
+#close	2026-09-23-18-29-10

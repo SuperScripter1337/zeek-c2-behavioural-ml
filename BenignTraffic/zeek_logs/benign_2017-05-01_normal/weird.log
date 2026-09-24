@@ -1,0 +1,59 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-09-23-18-36-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1.000000	-	-	-	-	-	truncated_ethernet_frame	-	F	zeek	ETHERNET
+197.314063	CYpMk21cMPxNsOQnl1	10.0.2.15	49259	151.101.113.5	443	window_recision	-	F	zeek	-
+199.889992	CLbelr3PtQrv8VttS2	10.0.2.15	49254	151.101.193.28	443	window_recision	-	F	zeek	-
+275.547573	CVF5XJ0AJM8FOvtQf	10.0.2.15	62526	151.101.112.166	80	double_%_in_URI	-	F	zeek	HTTP
+275.547573	CVF5XJ0AJM8FOvtQf	10.0.2.15	62526	151.101.112.166	80	unescaped_%_in_URI	-	F	zeek	HTTP
+275.547573	CVF5XJ0AJM8FOvtQf	10.0.2.15	62526	151.101.112.166	80	partial_escape_at_end_of_URI	-	F	zeek	HTTP
+617.142352	CQIdgW22dA3luwNrk8	10.0.2.15	63302	104.127.48.56	443	window_recision	-	F	zeek	-
+994.911707	CUWzh62rJe5RqCHTYe	10.0.2.15	63656	157.150.185.49	80	window_recision	-	F	zeek	-
+1177.016700	CWh1Sh1XugV84TVmeg	10.0.2.15	63838	149.126.77.155	80	HTTP_obsolete_line_folding	Set-Cookie	F	zeek	HTTP
+1336.795773	CRLYipBpTfRI8iDjk	10.0.2.15	64043	69.172.216.55	80	window_recision	-	F	zeek	-
+1383.657096	Cf0WuH3uHs9V3trNnd	10.0.2.15	64199	94.23.175.34	443	window_recision	-	F	zeek	-
+1402.886051	CzldYA1SHa0G1epi14	10.0.2.15	64240	94.23.175.34	443	window_recision	-	F	zeek	-
+2082.344968	CsiTzp42EGRJraGYzg	10.0.2.15	54326	23.38.83.29	80	window_recision	-	F	zeek	-
+2126.252309	CwMyof2k2CY0RdSN3i	10.0.2.15	54370	104.127.49.141	443	window_recision	-	F	zeek	-
+2126.672502	C1SWTb4UkCANbu8hgc	10.0.2.15	54366	104.127.49.141	443	window_recision	-	F	zeek	-
+2177.536700	CHe4H8cxD0Hjes1og	10.0.2.15	54339	104.127.49.141	443	window_recision	-	F	zeek	-
+2204.776885	CkUD4dUrjZPunok25	10.0.2.15	54483	35.185.15.143	80	window_recision	-	F	zeek	-
+2421.612957	-	-	-	-	-	log_container_field_truncated	X509::LOG	F	zeek	-
+2653.159455	Cof6My3S3EjsJLEov8	10.0.2.15	51121	104.16.120.145	443	window_recision	-	F	zeek	-
+2836.046355	C2mXbk4ofrDbyQgkX8	10.0.2.15	51364	54.147.120.50	80	bad_HTTP_request	-	F	zeek	HTTP
+2836.054383	CCMLPf7tAZavAEi31	10.0.2.15	51357	54.147.120.50	80	bad_HTTP_request	-	F	zeek	HTTP
+2917.073376	CHSOW5GDfQQOJnMd7	10.0.2.15	51597	52.90.152.238	80	bad_HTTP_request	-	F	zeek	HTTP
+2917.157850	CZ8k2V3QEBQoZq9HBf	10.0.2.15	51561	52.90.152.238	80	bad_HTTP_request	-	F	zeek	HTTP
+2960.796704	CWQCdn11W7Pgd1BiKg	10.0.2.15	51695	54.84.5.25	80	bad_HTTP_request	-	F	zeek	HTTP
+2960.797762	CiBPDR3BQElH4hcCmg	10.0.2.15	51685	54.84.5.25	80	bad_HTTP_request	-	F	zeek	HTTP
+2980.445526	CN18LC3thpPB3YDdE1	10.0.2.15	51770	151.101.112.133	443	window_recision	-	F	zeek	-
+3316.269363	C5PVuz4CP66zdJi5Wa	10.0.2.15	52117	151.101.112.246	443	window_recision	-	F	zeek	-
+3612.030208	C2qctV2zGcyW6ty1Ge	10.0.2.15	52430	128.84.202.110	80	window_recision	-	F	zeek	-
+3656.407613	CxCiGI1VarXCsKT2zj	10.0.2.15	52446	23.38.87.52	443	window_recision	-	F	zeek	-
+4277.201860	C6AFvK2fvBXePWrVii	10.0.2.15	53111	151.101.112.238	443	window_recision	-	F	zeek	-
+4434.315604	CkSsuc3mBCDS30EW0f	10.0.2.15	53299	104.16.4.13	443	window_recision	-	F	zeek	-
+4650.919131	CL9WxgunA3kx2QbM3	10.0.2.15	53422	151.101.112.239	80	window_recision	-	F	zeek	-
+4770.518818	C3q9i03uL98Ev5Lonc	10.0.2.15	53272	54.72.238.236	443	window_recision	-	F	zeek	-
+5035.803587	CEkKKb2Naj1HETulte	10.0.2.15	53764	149.126.77.108	80	HTTP_obsolete_line_folding	Set-Cookie	F	zeek	HTTP
+5076.625657	CZuLJg4BKS3yQasyYg	10.0.2.15	53796	216.38.80.71	80	window_recision	-	F	zeek	-
+5420.627190	CdFxUg34d7tBOpIn7d	10.0.2.15	54193	107.154.103.27	80	HTTP_obsolete_line_folding	Set-Cookie	F	zeek	HTTP
+5421.968740	CfYaP813Y55aUxqRc3	10.0.2.15	54196	107.154.114.27	80	HTTP_obsolete_line_folding	Set-Cookie	F	zeek	HTTP
+5432.098421	CXwbzNnzC8AfBVEY1	10.0.2.15	54218	173.241.240.220	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+5465.138881	Ct04WiIQZ1sIEnC0g	10.0.2.15	54280	54.192.93.172	80	window_recision	-	F	zeek	-
+5981.663945	CfmecL1vmx9xacmRY9	10.0.2.15	54908	54.235.226.231	80	bad_HTTP_request	-	F	zeek	HTTP
+6187.281832	Cphxf61OlXsdkvwAMb	10.0.2.15	55436	23.64.15.33	80	window_recision	-	F	zeek	-
+6214.515855	C3ixm5dxCJxjwKH7a	10.0.2.15	55493	125.90.58.145	80	window_recision	-	F	zeek	-
+6216.665462	CxDWj72yz4IbA5Q2ac	10.0.2.15	55477	125.90.58.145	80	window_recision	-	F	zeek	-
+6246.812672	Cmly7c2CbYp4iYYd7d	10.0.2.15	55487	125.90.58.145	80	window_recision	-	F	zeek	-
+6286.094426	CUCmtTUhn5swDIDGg	10.0.2.15	55536	151.101.114.2	443	window_recision	-	F	zeek	-
+6667.003948	CHxDZg4CE8lOLFvdM2	10.0.2.15	58467	151.101.112.239	80	window_recision	-	F	zeek	-
+6683.185875	C4TPO7CxFunT9ej9h	10.0.2.15	58537	23.64.15.74	80	window_recision	-	F	zeek	-
+6764.550934	CT7iJMUrGa4uO62Ug	10.0.2.15	58637	54.192.94.223	80	window_recision	-	F	zeek	-
+6843.436842	CGbuR342W19EJeAq6f	10.0.2.15	58823	216.137.61.231	443	window_recision	-	F	zeek	-
+6867.910120	CjzAFS3fhsvv6jDWY8	10.0.2.15	58892	54.192.94.76	80	window_recision	-	F	zeek	-
+#close	2026-09-23-18-36-43

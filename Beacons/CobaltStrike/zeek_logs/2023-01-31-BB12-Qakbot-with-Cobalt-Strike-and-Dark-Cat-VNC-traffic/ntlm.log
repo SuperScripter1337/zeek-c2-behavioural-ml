@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2026-09-23-18-29-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1675189313.464627	CxqzdY2iWWRtA2wrv9	172.30.1.4	51025	172.30.1.3	139	-	DESKTOP-71FSRMX	-	BIG-PAPPA-CTRLR	BIG-PAPPA-CTRLR.bigpappa.online	-	T
+1675190813.018187	CFyFBv1NX6BmqxUx1i	172.30.1.4	51089	172.30.1.3	445	pdiddybear	DESKTOP-71FSRMX	BIGPAPPA	BIG-PAPPA-CTRLR	BIG-PAPPA-CTRLR.bigpappa.online	-	T
+1675190813.028442	CjjsQs1CUPZKGTFNsh	172.30.1.4	51091	172.30.1.3	49678	pdiddybear	DESKTOP-71FSRMX	BIGPAPPA	BIG-PAPPA-CTRLR	BIG-PAPPA-CTRLR.bigpappa.online	bigpappa.online	-
+#close	2026-09-23-18-29-22

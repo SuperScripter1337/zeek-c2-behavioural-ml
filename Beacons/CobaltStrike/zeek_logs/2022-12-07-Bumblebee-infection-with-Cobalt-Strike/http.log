@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-09-23-18-29-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1670429131.703847	CZzdu1tT2l7RZK8bc	10.12.7.101	49982	72.21.91.29	80	1	GET	ocsp.digicert.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh/sBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H/z9DKA=	-	1.1	Microsoft-CryptoAPI/10.0	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	Fkf6WE46PmuAFnJL93	-	application/ocsp-response
+1670432095.591253	CGR4umklfxHyp2Hoj	10.12.7.101	50135	208.111.176.192	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?480734d00ec288a2	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1670432340.603247	CIOh8f2f65wYlnSmBe	10.12.7.101	50166	104.94.77.31	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1670432761.691608	CMXsjx3MkMgmEzTQdc	10.12.7.101	50204	208.111.176.128	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?633c8516391913c5	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1670432817.747246	CMXsjx3MkMgmEzTQdc	10.12.7.101	50204	208.111.176.128	80	2	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?52c34854caf98591	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2026-09-23-18-29-16

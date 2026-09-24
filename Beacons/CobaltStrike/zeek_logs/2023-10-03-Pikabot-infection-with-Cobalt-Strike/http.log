@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-09-23-18-29-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1696345177.460034	CeDHrC3cxQqOHSLZmc	10.1.2.147	49333	72.21.81.240	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?ff869e65ec301b5a	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1696348611.585386	CtkAjb26CzBGX6pDYb	10.1.2.147	49372	192.229.211.108	80	1	GET	ocsp.digicert.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQ50otx/h0Ztl+z8SiPI7wEWVxDlQQUTiJUIBiV5uNu5g/6+rkS7QYXjzkCEAn5bsKVVV8kdJ6vHl3O1J0=	-	1.1	Microsoft-CryptoAPI/10.0	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FPXqLQnbhaOfxyoed	-	application/ocsp-response
+1696349998.079157	CKRZZv4nCsZga98lQ	10.1.2.147	49615	209.197.3.8	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?13ca1a2f76ca9ede	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1696349998.157355	CKRZZv4nCsZga98lQ	10.1.2.147	49615	209.197.3.8	80	2	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?23bca8531aab6d1b	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1696349998.294008	CUFqV33lddzN96wqGa	10.1.2.147	49616	192.229.211.108	80	1	GET	ocsp.digicert.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQ50otx/h0Ztl+z8SiPI7wEWVxDlQQUTiJUIBiV5uNu5g/6+rkS7QYXjzkCEApDqVCbATUviZV57HIIulA=	-	1.1	Microsoft-CryptoAPI/10.0	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FVCMhr2USaI08Cnixi	-	application/ocsp-response
+1696349998.341904	CKRZZv4nCsZga98lQ	10.1.2.147	49615	209.197.3.8	80	3	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?a01a86f8cee5c03d	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1696350028.792908	Cip2w633ErRablnWVb	10.1.2.147	49617	209.197.3.8	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?6d782162aad38acc	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2026-09-23-18-29-30

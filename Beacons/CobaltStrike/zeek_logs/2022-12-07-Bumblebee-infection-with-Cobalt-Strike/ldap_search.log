@@ -1,0 +1,43 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2026-09-23-18-29-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1670429018.472459	CWTaFm1oiIJZEQh7Ga	10.12.7.101	57495	10.12.7.12	389	10	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com.)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x00000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670429018.475894	CWTaFm1oiIJZEQh7Ga	10.12.7.101	57495	10.12.7.12	389	11	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com.)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x20000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670429021.809112	CyS7skmlv4jqla1ec	10.12.7.101	53183	10.12.7.12	389	12	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com.)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x20000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670429057.160087	CZUdUCStqItKzmDCj	10.12.7.101	57933	10.12.7.12	389	13	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com.)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x20000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670429330.285099	CoUWMU3X1XAZ3gd9x7	10.12.7.101	56595	10.12.7.12	389	14	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com.)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x20000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670429330.396059	CF7yTF4vBYxex1rP0h	10.12.7.101	50011	10.12.7.12	389	15	base	never	-	1	success	-	(objectclass=*)	-
+1670429330.406223	CqiCvJ2iNTM4MsZSqe	10.12.7.101	52930	10.12.7.12	389	20	base	never	-	1	success	-	(&(&(&(DnsDomain=ForestDnsZones.kettletech.com)(Host=DESKTOP-RPF7C3E))(NtVer=0x20000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670429330.522698	C6Pgpm4Ey7ygrhc6p1	10.12.7.101	61551	10.12.7.12	389	21	base	never	-	1	success	-	(&(&(&(DnsDomain=DomainDnsZones.kettletech.com)(Host=DESKTOP-RPF7C3E))(NtVer=0x20000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670429979.816270	C4XJa12UgpbVGVi632	10.12.7.101	54913	10.12.7.12	389	24	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com.)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x00000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670429979.951738	Clbr4CD2TU1Nbsc6f	10.12.7.101	50046	10.12.7.12	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1670429979.953936	Clbr4CD2TU1Nbsc6f	10.12.7.101	50046	10.12.7.12	389	4	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670429979.954429	Clbr4CD2TU1Nbsc6f	10.12.7.101	50046	10.12.7.12	389	5	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670429979.954886	Clbr4CD2TU1Nbsc6f	10.12.7.101	50046	10.12.7.12	389	6	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670429979.959040	Czp4rW1tOYccrioGB7	10.12.7.101	50047	10.12.7.12	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1670429979.959638	Czp4rW1tOYccrioGB7	10.12.7.101	50047	10.12.7.12	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=kettletech,DC=com	0	no such object	0000208D: NameErr: DSID-0310028C, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=kettletech,DC=com'??	(ObjectClass=*)	-
+1670430238.039387	CsIzqy4LPoGSUdSBAf	10.12.7.101	50064	10.12.7.12	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1670430238.041565	CsIzqy4LPoGSUdSBAf	10.12.7.101	50064	10.12.7.12	389	4	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670430238.041954	CsIzqy4LPoGSUdSBAf	10.12.7.101	50064	10.12.7.12	389	5	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670430238.042355	CsIzqy4LPoGSUdSBAf	10.12.7.101	50064	10.12.7.12	389	6	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670430238.046625	C0ei1W2HcSJFfzUvu8	10.12.7.101	50065	10.12.7.12	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1670430238.047165	C0ei1W2HcSJFfzUvu8	10.12.7.101	50065	10.12.7.12	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=kettletech,DC=com	0	no such object	0000208D: NameErr: DSID-0310028C, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=kettletech,DC=com'??	(ObjectClass=*)	-
+1670430795.984953	CFTtKN1F12FFSu4svd	10.12.7.101	50086	10.12.7.12	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1670430795.987247	CFTtKN1F12FFSu4svd	10.12.7.101	50086	10.12.7.12	389	4	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670430795.987646	CFTtKN1F12FFSu4svd	10.12.7.101	50086	10.12.7.12	389	5	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670430795.987997	CFTtKN1F12FFSu4svd	10.12.7.101	50086	10.12.7.12	389	6	base	never	CN=DESKTOP-RPF7C3E,CN=Computers,DC=kettletech,DC=com	1	success	-	(objectclass=*)	-
+1670430795.992513	CzjzelKlMWbtMmkie	10.12.7.101	50087	10.12.7.12	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1670430795.993064	CzjzelKlMWbtMmkie	10.12.7.101	50087	10.12.7.12	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=kettletech,DC=com	0	no such object	0000208D: NameErr: DSID-0310028C, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=kettletech,DC=com'??	(ObjectClass=*)	-
+1670432310.598270	CyOSigIH2nNPx7LQ6	10.12.7.101	62708	10.12.7.12	389	25	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com.)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x00000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670432310.739066	CSDon94fKsXeVY5TRd	10.12.7.101	62709	10.12.7.12	389	26	base	never	-	1	success	-	(&(&(&(&(DnsDomain=KETTLETECH.COM)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x20000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670432318.677530	CYIezO1TbrnvRdXVi4	10.12.7.101	62710	10.12.7.12	389	27	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=kettletech.com.)(Host=DESKTOP-RPF7C3E))(DomainSid=S-1-5-21-2554232-1226665139-1412834941))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x00000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670432339.255767	CSdIrV1FSv7sROHtA6	10.12.7.101	62712	10.12.7.12	389	28	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0x20000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670432339.372161	CvP5hw3LumsTteWs5j	10.12.7.101	50163	10.12.7.12	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1670432339.381762	CMoeeh4KIBdBNeToH4	10.12.7.101	52726	10.12.7.12	389	29	base	never	-	1	success	-	(&(&(&(&(DnsDomain=kettletech.com)(Host=DESKTOP-RPF7C3E))(DomainGuid=6397104e-cd92-4918-85b3-b620e3babe1e))(NtVer=0xa0000016))(DnsHostName=DESKTOP-RPF7C3E.kettletech.com))	-
+1670432339.491057	CL5RcK1gJAR7fxY0K4	10.12.7.101	50164	10.12.7.12	3268	5	base	never	-	1	success	-	(objectclass=*)	-
+#close	2026-09-23-18-29-16

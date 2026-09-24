@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2026-09-23-18-31-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key_fingerprint
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string
+1782784811.530480	C9fRo23osJ2nFEQMI2	172.40.0.82	55464	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782784811.530042	CBlWE53e66AVTUZJQ4	172.40.0.82	55480	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782788803.543894	CXS8i2oFIh4PKSk3f	172.40.0.58	52082	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782790337.342487	C2djZy20N9ubIquIA3	172.40.0.73	40734	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782790337.342442	Cen5i92jIKDLen7du5	172.40.0.73	40744	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782791096.469252	C36Ej13DG7SKFTnUQf	172.40.0.67	42132	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782791096.469500	COWMVr4tKZOqGIvyWg	172.40.0.67	42140	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782791107.691372	CGrIDA2D2FG78HA2jj	172.40.0.58	45534	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782796981.252221	CeYKl03EeKohKW5WT1	172.40.0.60	56868	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782796981.252308	CY332c3myG9uLOR4ga	172.40.0.60	56882	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782798954.380391	C1Pw7t4nc7nRWlgmtf	172.40.0.78	43912	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782798954.380381	CjQWFu4VMhxOeCWzdl	172.40.0.78	43922	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782799234.516576	CtGgDe1Nt5AZIYxStf	172.40.0.68	56236	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782799234.516478	CEsOXR1dDepWFHeqi6	172.40.0.68	56244	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782805215.297977	CgqNdc3VkbXYUP0Dxl	172.40.0.63	56952	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782805215.298314	Cr6VGo2I5Aw83Mh213	172.40.0.63	56964	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782806709.537342	CUweb7D2hZYJSgf9a	172.40.0.63	56428	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782806709.538477	Ce58tM2OvFBxKJi5u1	172.40.0.63	56442	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782808817.192440	CW5nm42C3YMumWQefk	172.40.0.57	34010	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782808817.192460	CwY3NC4HfxrknkXy4i	172.40.0.57	34014	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782810574.100733	C0vw3Vs9hNeMNqgvf	172.40.0.55	49872	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782810574.100256	CGrqyM14lyp7uGnNVk	172.40.0.55	49880	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782811093.083225	CyLeTs4t5SBt9GaUQg	172.40.0.66	50344	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782811093.082210	CJH35I94vbP8mYe79	172.40.0.66	50350	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782824707.325448	CJpjww2t4Ma014B4La	172.40.0.62	42952	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+1782824707.325460	CIgb5v370pGTHec8Z8	172.40.0.62	42960	172.40.0.1	22	-	-	0	-	-	SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13	-	-	-	-	-	-
+#close	2026-09-23-18-31-21
