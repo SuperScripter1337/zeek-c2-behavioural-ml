@@ -1,1 +1,25 @@
-README
+
+Can machine-learning models trained on Zeek-derived network metadata identify C2 traffic, and which behavioural characteristics provide generalisable and operationally useful indicators for blue-team detection?
+
+## Experiments
+
+The analysis is structured around three experiments:
+
+1. **Binary detection**
+
+   Classify each communication channel as either benign or C2.
+
+2. **Multiclass attribution**
+
+   Classify traffic into one of the observed families:
+
+   - Benign
+   - Cobalt Strike
+   - Havoc
+   - Mythic
+   - Sliver
+
+3. **Leave-one-C2-family-out generalisation**
+
+   Train on benign traffic and all but one C2 family, then test whether the model can detect the unseen C2 family as malicious.
+
