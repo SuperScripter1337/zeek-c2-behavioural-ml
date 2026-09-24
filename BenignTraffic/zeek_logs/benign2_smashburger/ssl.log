@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2026-09-23-19-08-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1680510050.019651	CRxzXC48QEnlKrmwd8	192.168.46.84	34672	13.225.239.11	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510079.303459	Cjs3mW15WJMpZp2TTh	192.168.46.84	34086	13.225.239.120	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510104.225316	C370xt2pfnuJyunszh	192.168.46.84	43152	13.225.239.11	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510147.945687	CmiSWX1qy1cN7UqtP	192.168.46.84	52432	13.225.239.11	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510188.602923	CDcn0GmfHlFX8J389	192.168.46.84	50494	13.225.239.120	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510218.242815	CGOGU12ra9N4EqK71c	192.168.46.84	49116	13.225.239.120	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510219.002963	CpBSJG3LAq15e3lZk7	192.168.46.84	49118	13.225.239.120	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	F	Csi	-	-	-
+1680510279.440786	C0EYtGWyd42MFJwv9	192.168.46.84	50718	13.225.239.120	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510319.905433	CJKnOH338Fq4u2UjQk	192.168.46.84	53096	13.225.239.61	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510387.509477	CEkCsD4OIFz3NSCoU3	192.168.46.84	50258	13.225.239.11	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+1680510424.951550	CQVdyG4JfEIh9nwgl5	192.168.46.84	55182	13.225.239.11	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	smashburger.com	F	-	-	T	CsiI	-	-	-
+#close	2026-09-23-19-08-09

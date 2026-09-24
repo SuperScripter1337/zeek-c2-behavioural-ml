@@ -1,0 +1,11 @@
+family,split,channels,captures
+benign,test,2024,7
+benign,train,27271,8
+cobalt_strike,test,994,21
+cobalt_strike,train,1282,10
+havoc,test,1445,1
+havoc,train,257,1
+mythic,test,483,5
+mythic,train,882,8
+sliver,test,6879,5
+sliver,train,12683,9
